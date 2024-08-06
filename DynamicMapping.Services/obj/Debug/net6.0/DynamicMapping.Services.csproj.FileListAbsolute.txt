@@ -1,0 +1,15 @@
+C:\Users\ibrahim\_Projects\Testing\DynamicMapping\DynamicMapping.Services\obj\Debug\net6.0\DynamicMapping.Services.csproj.AssemblyReference.cache
+C:\Users\ibrahim\_Projects\Testing\DynamicMapping\DynamicMapping.Services\obj\Debug\net6.0\DynamicMapping.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ibrahim\_Projects\Testing\DynamicMapping\DynamicMapping.Services\obj\Debug\net6.0\DynamicMapping.Services.AssemblyInfoInputs.cache
+C:\Users\ibrahim\_Projects\Testing\DynamicMapping\DynamicMapping.Services\obj\Debug\net6.0\DynamicMapping.Services.AssemblyInfo.cs
+C:\Users\ibrahim\_Projects\Testing\DynamicMapping\DynamicMapping.Services\obj\Debug\net6.0\DynamicMapping.Services.csproj.CoreCompileInputs.cache
+C:\Users\ibrahim\_Projects\Testing\DynamicMapping\DynamicMapping.Services\bin\Debug\net6.0\DynamicMapping.Services.deps.json
+C:\Users\ibrahim\_Projects\Testing\DynamicMapping\DynamicMapping.Services\bin\Debug\net6.0\DynamicMapping.Services.dll
+C:\Users\ibrahim\_Projects\Testing\DynamicMapping\DynamicMapping.Services\bin\Debug\net6.0\DynamicMapping.Services.pdb
+C:\Users\ibrahim\_Projects\Testing\DynamicMapping\DynamicMapping.Services\bin\Debug\net6.0\DynamicMapping.Core.dll
+C:\Users\ibrahim\_Projects\Testing\DynamicMapping\DynamicMapping.Services\bin\Debug\net6.0\DynamicMapping.Core.pdb
+C:\Users\ibrahim\_Projects\Testing\DynamicMapping\DynamicMapping.Services\obj\Debug\net6.0\DynamicMapping.Services.csproj.CopyComplete
+C:\Users\ibrahim\_Projects\Testing\DynamicMapping\DynamicMapping.Services\obj\Debug\net6.0\DynamicMapping.Services.dll
+C:\Users\ibrahim\_Projects\Testing\DynamicMapping\DynamicMapping.Services\obj\Debug\net6.0\refint\DynamicMapping.Services.dll
+C:\Users\ibrahim\_Projects\Testing\DynamicMapping\DynamicMapping.Services\obj\Debug\net6.0\DynamicMapping.Services.pdb
+C:\Users\ibrahim\_Projects\Testing\DynamicMapping\DynamicMapping.Services\obj\Debug\net6.0\ref\DynamicMapping.Services.dll
