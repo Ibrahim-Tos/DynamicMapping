@@ -11,7 +11,7 @@ namespace DynamicMapping.Core
 
         public IMappingEngine ResolveMappingEngineByModel(MappingModelBase model, IEnumerable<IMappingEngine> mappingEngines)
         {
-            var result = mappingEngines.FirstOrDefault(mappingEngine => mappingEngine.Name == model.OrganizationName);
+            var result = mappingEngines.FirstOrDefault(mappingEngine => string.Equals(mappingEngine.Name, model.OrganizationName, StringComparison.OrdinalIgnoreCase));
 
             return result ?? throw new ArgumentException($"No Mapping Engine for organization '{model.OrganizationName}' could be found");
         }
@@ -25,7 +25,7 @@ namespace DynamicMapping.Core
                 ParseModelBaseCustomerFromJson(customerObject) :
                 ParseModelBaseCustomerFromXml(customerObject);
 
-            var result = mappingEngines.FirstOrDefault(mappingEngine => mappingEngine.Name == modelBaseCustomer.Name);
+            var result = mappingEngines.FirstOrDefault(mappingEngine => string.Equals(mappingEngine.Name, modelBaseCustomer.Name, StringComparison.OrdinalIgnoreCase));
 
             return result ?? throw new ArgumentException($"No Mapping Engine for organization '{modelBaseCustomer.Name}' could be found");
         }

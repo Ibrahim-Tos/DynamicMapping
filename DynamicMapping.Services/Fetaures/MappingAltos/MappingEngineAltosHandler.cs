@@ -1,4 +1,5 @@
 ﻿using DynamicMapping.Core;
+using Newtonsoft.Json;
 
 namespace DynamicMapping.Services.Fetaures.MappingAltos
 {
@@ -6,14 +7,22 @@ namespace DynamicMapping.Services.Fetaures.MappingAltos
     {
         public string Name => AppConstants.Altos;
 
-        public Task<string> MapFromLocal(MappingModelBase model)
+        public async Task<string> MapFromLocal(MappingModelBase model)
         {
-            throw new NotImplementedException();
+            var result = JsonConvert.SerializeObject(model);
+
+            await Task.Delay(1000);
+
+            return result;
         }
 
-        public Task<MappingModelBase> MapToLocal(string customerObject)
+        public async Task<MappingModelBase> MapToLocal(string customerObject)
         {
-            throw new NotImplementedException();
+            var result = JsonConvert.DeserializeObject<MappingModelBase>(customerObject);
+
+            await Task.Delay(1000);
+
+            return result;
         }
     }
 }

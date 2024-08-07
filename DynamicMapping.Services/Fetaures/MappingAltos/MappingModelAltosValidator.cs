@@ -7,7 +7,7 @@ namespace DynamicMapping.Services.Fetaures.MappingAltos
     {
         public MappingModelAltosValidator()
         {
-            this.RuleFor(model => model)
+            RuleFor(model => model)
                 .NotNull()
                 .WithErrorCode("model_is_null")
                 .WithMessage("Model must be not null");
